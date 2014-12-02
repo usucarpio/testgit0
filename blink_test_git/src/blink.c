@@ -74,7 +74,7 @@ void TD_USER_Setup(void)
 		GPIO_PinOutToggle(LED_PORT, LED_BIT);
 
 		// Delay 500 ms
-		TD_RTC_Delay(T500MS);
+		TD_RTC_Delay(T2S);
 	}
 
 	// Never reached
