@@ -75,6 +75,8 @@ void TD_USER_Setup(void)
 
 		// Delay 500 ms
 		TD_RTC_Delay(T5S);
+
+		//Tonto el que lo lea
 	}
 
 	// Never reached
