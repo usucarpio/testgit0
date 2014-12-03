@@ -73,8 +73,8 @@ void TD_USER_Setup(void)
 		// Toggle the LED pin on/off
 		GPIO_PinOutToggle(LED_PORT, LED_BIT);
 
-		// Delay 500 ms
-		TD_RTC_Delay(T5S);
+		// Delay 10 seconds
+		TD_RTC_Delay(T10S);
 	}
 
 	// Never reached
